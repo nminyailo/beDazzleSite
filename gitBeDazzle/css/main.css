@@ -1,0 +1,83 @@
+#navbar{
+    background-color: rgba(169, 152, 174, 0.4);
+}
+
+#images{
+    width: 250px;
+    height: 250px;
+}
+#second_images{
+    width: 250px;
+    height: 250px;
+    visibility: inherit;
+}
+ #names{
+     height: 50px;
+     width: 250px;
+     text-transform: lowercase;
+ }
+ 
+ #page_title{
+     padding-left: 16%;
+     text-transform: uppercase;
+     background-color: rgba(169, 152, 174, 0.12);
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+
+#title{
+    text-transform: uppercase;
+    padding-left: 15.5%;
+}
+ #h3_underline{
+     text-decoration: underline;
+     text-decoration-color: rgba(169, 152, 174, 0.4);
+ }
+ #navbarDropdownAbout{
+     padding-left: 50px;
+ }
+
+.card {
+    width: 250px;
+    height: 250px;
+    border: 1px;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.card:hover .img-top {
+    display: inline;
+}
+#description{
+    text-align: justify;
+    font-size: 12px;
+    width: 250px;
+    overflow: auto;
+    height: 50px;
+}
+#container{
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    width: 800px;
+}
+#prices{
+    width: 250px;
+}
+#mainimages, #mainsecond_images{
+    height: 500px;
+    width: 800px;
+}
+#col{
+    padding-left: 16%;
+    width: 70%;
+}
+#uppercase{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
